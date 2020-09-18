@@ -5,3 +5,13 @@
 #redes {
     font-size: 2em;
 }
+
+.categoria {
+    border: solid darkred;
+    border-width: 0 0 0 0 0.5em;
+    padding: 0 1.5em;
+}
+
+.categoria-items {
+    overflow-x: auto;
+}
