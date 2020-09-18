@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./fontAwsome/css/all.css">
+    <title>Proyecto Grupal</title>
+</head>
+
+<body class="bg-light">
+    <div class="container bg-white">
+        <div class="bg-danger row">
+            <div class="col-6 py-3">
+                <div class="d-inline-block" id="logo">
+                    <img src="./img/Logo_large.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-inline-block">
+                    Come-México
+                </div>
+            </div>
+            <div class="col-6 p-2">
+                <div class="row text-right">
+                    <form class="d-inline-block form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                                <input class="form-control" type="text" name="" id="" placeholder="Buscar">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="ml-3 text-right d-inline-block">
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalLogin">
+                            Iniciar sesion
+                        </button>|
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalSignUp">
+                            Registrarse
+                        </button>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <ul class="list-group list-group-horizontal text-center ">
+                        <li class="list-group-item list-group-item-action">item 1</li>
+                        <li class="list-group-item list-group-item-action">item 2</li>
+                        <li class="list-group-item list-group-item-action">item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- cuerpo -->
+        <div class="row">
+            <!-- Tarea SLider -->
+            <div class="col-3 py-2">
+                <div class="col-3 py-2">
+                    <h4>Mejores categorias</h4>
+                    <ul class=" list-group ">
+                        <li class="list-group-item ">Item 1</li>
+                        <li class="list-group-item ">Item 2</li>
+                        <li class="list-group-item ">Item 3</li>
+                        <li class="list-group-item ">Item 4</li>
+                        <li class="list-group-item ">Item 5</li>
+                        <li class="list-group-item ">Item 6</li>
+                        <li class="list-group-item ">Item 7</li>
+                        <li class="list-group-item ">Item 8</li>
+                        <li class="list-group-item ">Item 9</li>
+                        <li class="list-group-item ">Item 10</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- categorias -->
+            <div class="col-9 py-2">
+                <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                <div class="row mt-3">
+
+                    <div class="col-3">
+                        <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-9 bg-light">
+                        <h1 text-center>Nombre del item</h1>
+                        <h3 text-center>critica</h3>
+                        <p class="text-jutify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, rem in. Ad recusandae, distinctio maiores ab velit asperiores sint placeat repellendus cumque praesentium consectetur, illo tempore repudiandae facilis assumenda eos.
+                        </p>
+                        <div class="text-center">
+                            <button class="btn btn-outline-light text-dark vote-button">
+                                    <i class="far fa-thumbs-up"></i>
+                                    89%
+                                </button>
+                            <button class="btn btn-outline-light text-dark vote-button">
+                                    <i class="far fa-thumbs-down"></i>
+                                    11%
+                                </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="categorias" class="card mt-3 w-100">
+                    <div class="categorias">
+                        <div class="h3">
+                            categorias1
+                        </div>
+                        <div class="categoria-items row flex-nowrap">
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="categoria-item col-2">
+                                <div class="card">
+                                    <img src="https://picsum.photos/200/300" class="img-fluid" alt="">
+                                    <div class="card-title">
+                                        Nombre item
+                                    </div>
+                                    <div class="card-body">
+                                        <i class="far fa-thumbs-up">89%</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 w-100">
+                    <div class="card-header">informacion</div>
+                    <div class="card-body"></div>
+                </div>
+                <div class="card mt-3 w-100">
+                    <div class="card-header">calificar</div>
+                    <div class="card-body form-row">
+                        <div class="col-8">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 w-100">
+                    <div class="card-header">Reseñas</div>
+                    <div class="card-body"></div>
+                </div>
+                <div class="card mt-3 w-100">
+                    <div class="card-header"></div>
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-danger row" id="redes">
+        <div class="col-6">
+            <a href="" class="text-white">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="" class="text-white">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="" class="text-white">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
+        <div class="col-6 text-right">
+            contactanos
+        </div>
+    </div>
+    </div>
+    <!-- login -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLoginLabel">Iniciar Sesion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Correo</label>
+                            <input type="text" class="form-control" name="" id="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Contraseña</label>
+                            <input type="text" class="form-control" name="" id="">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- singup -->
+    <div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLoginLabel">Iniciar Sesion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="form-group col-6">
+                                <label for="">Nombre</label>
+                                <input type="text" name="" id="">
+                            </div>
+                            <div class="form-group col-6">
+                                <label for="">Apellido</label>
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>

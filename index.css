@@ -15,3 +15,7 @@
 .categoria-items {
     overflow-x: auto;
 }
+
+.vote-button {
+    font-size: 3em;
+}
